@@ -56,7 +56,7 @@ header nav ul li a {
 #home {
     
     background: url("img/fondocielo.jpg");
-    
+    mask-image: linear-gradient(rgb(255, 255, 255) 70%, transparent);
     background-size:cover;
     background-position: bottom;
     height: 83.5vh;
@@ -68,12 +68,13 @@ header nav ul li a {
 }
 
 #home .overlay {
+    mask-image: linear-gradient(rgb(255, 255, 255) 80%, transparent);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(53, 52, 52, 0.534);
 }
 
 #home .content {
