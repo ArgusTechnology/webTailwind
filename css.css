@@ -59,7 +59,7 @@ header nav ul li a {
     
     background-size:cover;
     background-position: bottom;
-    height: 84.5vh;
+    height: 83.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,3 +412,20 @@ footer {
   .fade-out {
     animation: fadeOut 1s forwards;
   }
+
+
+  
+
+  /* home dentro grid*/
+  .homedentro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .content { grid-area: 1 / 1 / 2 / 2; }
+    .content2 { grid-area: 1 / 2 / 2 / 3; }
+  
+  
