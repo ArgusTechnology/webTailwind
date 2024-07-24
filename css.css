@@ -69,7 +69,7 @@ header nav ul li a {
 }
 
 #home .overlay {
-    mask-image: linear-gradient(rgb(255, 255, 255) 80%, transparent);
+  mask-image: linear-gradient(rgb(255, 255, 255) 80%, transparent);
     position: absolute;
     top: 0;
     left: 0;
@@ -433,6 +433,12 @@ footer {
   
 /* container estructura*/
 
+#people{
+  background-image: url(./img/dd22bebd1f4e3ad7091d168dc737c389.gif) no-repeat center center fixed;
+  
+  background-size: cover;
+  
+}
 
 .spacer {
   height: 100%; /* Simula contenido antes y después del contenedor de concursantes */
@@ -444,7 +450,9 @@ footer {
 }
 
 .contestant {
-  background-color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+  background-color: #ffffff2c;
   color: #f4f4f4;
   display: flex;
   align-items: center;
@@ -455,8 +463,11 @@ footer {
 
 .contestant img {
   width: 210px;  /* Tamaño ajustado */
-  height: 240px; /* Tamaño ajustado */
+  height: 250px; /* Tamaño ajustado */
   margin-right: 20px;
+  border-radius: 20px;
+  mask-image: linear-gradient(rgb(249, 249, 249) 60%, transparent);
+  
 }
 
 .contestant.left {
