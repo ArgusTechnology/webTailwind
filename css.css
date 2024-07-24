@@ -444,7 +444,8 @@ footer {
 }
 
 .contestant {
-  background-color: #111;
+  background-color: #000000;
+  color: #f4f4f4;
   display: flex;
   align-items: center;
   margin: 20px 0; /* Espaciado entre concursantes */
