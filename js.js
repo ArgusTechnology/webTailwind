@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-/*window.addEventListener('load', function() {
+window.addEventListener('load', function() {
     "use strict";
 
       setTimeout(function () {
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
           $('#content').fadeIn('slow');
         }, 1000); // Duración de la animación
       }, 1800);
-  });*/
+  });
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
