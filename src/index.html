@@ -6,13 +6,23 @@
     <title>Proyecto tailwind</title>
 
     <!-- tailwind -->
-     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body class="body">
     <main class="main"> 
-      <div class="container">
-        <div class="relative">
-            <img src="./img/mujer.jpg" alt="girl">
+      <div class="container mx-auto px-2 mt-24">
+        <div class="relative overflow-hidden h-[610px] rounded-3xl px-24 py-28 before:absolute before:w-full before:h-full before:top-0 before:left-0 before:bg-black/30 before:z-[-1]">
+            
+            <img class="w-full h-full object-cover absolute left-0 top-0 -z-10 object-[center_10%]" src="./img/mujer.jpg" alt="girl">
+            
+            <div class="md:w-1/2 text-white h-full flex flex-col justify-between">
+                <div>
+                    <h1 class="uppercase font-bold text-lg">Professional Photographer</h1>
+                    <h2 class="font-bold text-[64px] leading-none mb-4">Carolina</h2>
+                </div>
+                <p class="opacity-80 text-sm max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis porro at, omnis exercitationem sunt voluptas corporis, deserunt saepe doloribus similique reiciendis. Aspernatur, rerum! Magnam velit nisi nostrum alias quaerat eligendi.</p>
+                <a class="w-fit text-lg font-bold px-10 py-2.5 rounded-lg border border-white flex justify-center items-center transition-all duration-300 hover:bg-white hover:text-black" href="#">Contact</a>
+            </div>
         </div>
       </div>
     </main>
